@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MaxTemp</title>
+    <title>Windspeed</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <div class= "topbar">
@@ -17,7 +16,7 @@
                         
                 <li><a href="data.html">Data</a></li>
                 <li><a href="comparison.html">Comparison</a></li>
-                <li><a>Plans <i class="fa fa-caret-down"></i></a>
+                <li><a>Plans<i class="fa fa-caret-down"></i></a>
                     <ul>
                         <li><a href="maxtemp.html">Maxtemp</a></li>
                         <li><a href="humidity.html">Humidity</a></li>
@@ -33,21 +32,17 @@
      <div class="grid"> 
         
         <div class ="section1">
-            <h2>Summary:Latitude vs. X</h2>
+            <h2>Latitude vs. windspeed</h2>
             <hr>
             <br>
             <br>
-            <img src="Fig1.png" class="float-left" alt="Weather graph" style="float:left">
-            <p>The purpose of this project was to see how the weather changes as you get closer to the equator.
-                    To accomplish this analysis, we first pulled out data from OpenWeatherMap API to assemble a 
-                    dataset on over 500 cities.
+            <img src="Fig4.png" class="float-left" alt="Weather graph" style="float:left">
+            <p>Tha analysis of this graph shows that across the latitudes the windspeed was between 0-10 miles. This behaviour 
+                was predominant in the cities between the latitudes -20 and 80.
+                We had few outliers between 40 and 80 lats with the  windspeed more than 30 miles an hour.
                 <br>
                 <br>
-                                                  
-                After assembling the dataset,we used Matplotlib to plot various aspects of the weather vs. latitude.
-                Factors we looked at included temperature, cloudeness, wind, speed, and humidity.The site provides the 
-                source data and visualizations created as part of the analysis, as well as explanations and descriptions 
-                of any trends and corelations witnessed.
+              
             </p>
         </div>
         <div class="section2">
@@ -57,7 +52,7 @@
             <a class="images" href="maxtemp.html"><img src="Fig1.png"></a>
             <a class ="images" href="humidity.html"><img src="Fig2.png"></a>
             <a class="images" href="cloudiness.html"><img src="Fig3.png"></a>
-            <a class="images" href="windspeed.html"><img src="Fig4.png"></a>
+            <a class="images" href="windspeed.html"><img src="Fig4.png" style="border:2px solid red"></a>
             
         </div>
         <br>
