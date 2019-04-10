@@ -97,6 +97,7 @@ ul.navbar1 >li:first-child > a{
         "section2"
        
     }
+
 }
 
 
@@ -125,9 +126,9 @@ ul.navbar1 >li:first-child > a{
 .section2{
     grid-area:section2;
     background-color:white;
-    padding:16px;
+   /* padding:16px;*/
     border:2px solid lightseagreen;
-    padding-left:30px;
+    padding-left:60px;
 }
 
 footer{
@@ -143,7 +144,7 @@ footer{
 .section2 img{
     width:40%;
     height:40%;
-    padding:10px;
+    
     
 }
 .images:hover img{
